@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+}
+
+
+a,a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    animation-duration: 1s ease ;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+}
+
+.header .navbar{
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;    
+}
+
+.logo img:hover{
+    cursor: pointer;
+}
+
+.header .navbar .menu ul li {
+        margin-right: 30px;
+}
+
+
+.header .navbar .menu ul li a{
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    pad: 10px;
+    text-transform: capitalize;
+    transition: all 0.2s ;  
+    opacity: 0.6;  
+    transition: all 0.4s ease-in-out;
+}
+
+.header .navbar .menu ul li a.active{
+    opacity: 1;
+
+}
+
+.header .navbar .menu ul li a:hover{
+    opacity: 1;
+    background-color: rgba(61, 209, 250, 0.9);
+
+   
+}
+
+.header .navbar .social ul li a i{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 5px;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    background-color: #cac5c542;
+    transition: all 0.4s ease-in-out;
+}
+
+.header .navbar .social ul li a i:hover{
+    background-color: rgba(61, 209, 250, 0.9);
+}
+
+
+.hero{
+    width: 100%;
+}
+
+.hero .row{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin: auto; 
+}
+
+.hero .row .left{
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+
+.hero .row .left h2{
+    font-size: 80px;
+    color: #000000;
+}
+
+.hero .row .left h2 span#B{
+color: #33A0D1;
+}
+
+.hero .row .left h2 span#M{
+    color: #373485;
+}
+
+    .hero .row .left h2 span#W{
+        color: #C52B30;
+}
+
+.hero .row .left p{
+    margin: 20px 0;
+    line-height: 20px;
+    padding-right: 150px;
+}
+
+.car img{
+    width: 800px;
+    height: 500px;
+   translate: 100px -200x;
+
+}
+
+.header .navbar .menu ul li a#tap:hover{
+    box-shadow: 0 0 25px solid red;
+   
+}
